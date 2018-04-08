@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Brooklyn, NY
   # Location required to calculate the time the sun rises and sets
-  latitude: 40.682667
-  longitude: -73.953087
+  latitude: 
+  longitude: 
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 0
   # metric for Metric, imperial for Imperial
@@ -99,13 +99,13 @@ device_tracker:
 # Zones
 zone:
   - name: Jet.com
-    latitude: 40.738694
-    longitude: -74.027789
+    latitude: 
+    longitude: 
     radius: 350
     icon: mdi:briefcase
   - name: Home
-    latitude: 40.682667
-    longitude: -73.953087
+    latitude: 
+    longitude: 
     radius: 350
     icon: mdi:home
 
