@@ -1,0 +1,68 @@
+- action:
+  - data:
+      brightness_pct: '55'
+      color_name: white
+      entity_id: light.main_room
+    service: light.turn_on
+  - data:
+      entity_id: automation.lights_on_door_open
+    service: automation.turn_off
+  alias: Lights On Door Open
+  condition:
+  - after: sunset
+    after_offset: -00:55:00
+    condition: sun
+  - condition: state
+    entity_id: light.main_room
+    state: 'off'
+  id: '1515877336323'
+  trigger:
+  - entity_id: binary_sensor.front_door
+    from: 'off'
+    platform: state
+    to: 'on'
+- action:
+  - data:
+      entity_id: media_player.living_room_speaker
+      message: Welcome home!
+    service: tts.google_say
+  - data:
+      entity_id: automation.welcome_home_greeting
+    service: automation.turn_off
+  alias: Welcome home
+  id: '1515891719920'
+  trigger:
+  - entity_id: binary_sensor.front_door
+    from: 'off'
+    platform: state
+    to: 'on'
+- action:
+  - data:
+      entity_id: automation.welcome_home_greeting
+    service: automation.turn_on
+  - data:
+      entity_id: automation.lights_on_door_open
+    service: automation.turn_on
+  - delay: 00:10
+  - data:
+      entity_id: automation.welcome_home_greeting
+    service: automation.turn_off
+  - data:
+      entity_id: automation.lights_on_door_open
+    service: automation.turn_off
+  alias: Enters home zone
+  condition: []
+  id: '1516478738195'
+  trigger:
+  - entity_id: device_tracker.marco_marco
+    event: enter
+    platform: zone
+    zone: zone.home
+  - entity_id: device_tracker.samsungsmg955ufiosrouterhome
+    event: enter
+    platform: zone
+    zone: zone.home
+  - entity_id: device_tracker.iphonefiosrouterhome
+    event: enter
+    platform: zone
+    zone: zone.home

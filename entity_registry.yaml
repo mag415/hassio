@@ -1,0 +1,21 @@
+light.hue_color_lamp_5:
+  platform: hue
+  unique_id: 00:17:88:01:03:7f:69:b7-0b
+light.hue_color_lamp_4:
+  platform: hue
+  unique_id: 00:17:88:01:03:81:21:05-0b
+light.hue_color_lamp_3:
+  platform: hue
+  unique_id: 00:17:88:01:03:80:47:0e-0b
+light.hue_white_lamp_1:
+  platform: hue
+  unique_id: 00:17:88:01:03:07:bd:b5-0b
+light.hue_color_lamp_2:
+  platform: hue
+  unique_id: 00:17:88:01:03:db:07:5b-0b
+light.hue_color_lamp_1:
+  platform: hue
+  unique_id: 00:17:88:01:03:94:8f:58-0b
+media_player.living_room_tv:
+  platform: cast
+  unique_id: d1a53d0c-dfc4-5137-16f4-22d43d31ac5a

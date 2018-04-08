@@ -1,0 +1,23 @@
+'1516244008662':
+  alias: Bedtime
+  sequence:
+  - data:
+      entity_id: light.main_room
+      transition: '120'
+    service: light.turn_off
+  - data:
+      brightness: '55'
+      entity_id: light.bedroom
+    service: light.turn_on
+  - data:
+      entity_id: alarm_control_panel.abode_alarm_system
+    service: alarm_control_panel.alarm_arm_home
+  - data:
+      entity_id: remote.harmony_hub
+    service: remote.turn_off
+  - data:
+      entity_id: switch.fireplace
+    service: switch.turn_off
+  - data:
+      entity_id: switch.fireplace
+    service: switch.turn_on

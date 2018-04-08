@@ -1,0 +1,6 @@
+device_tracker.iphonefiosrouterhome:
+  friendly_name: Bianca's iPhone
+  icon: mdi:cellphone-iphone
+device_tracker.samsungsmg955ufiosrouterhome:
+  friendly_name: Marco's S8
+  icon: mdi:cellphone

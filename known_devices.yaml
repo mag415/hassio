@@ -1,0 +1,180 @@
+
+marco_marco:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Marco
+  picture:
+  track: true
+  vendor:
+
+fios_quantum_gatewayfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 20:C0:47:38:FD:1B
+  name: FIOS Quantum Gateway.fios-router.home
+  picture:
+  track: false 
+  vendor: Verizon
+
+amazon761c0364dfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 88:71:E5:93:27:EB
+  name: amazon-761c0364d.fios-router.home
+  picture:
+  track: false 
+  vendor: Amazon Technologies Inc.
+
+desktop1mrkic3fiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 1C:87:2C:B7:C3:EE
+  name: DESKTOP-1MRKIC3.fios-router.home
+  picture:
+  track: false
+  vendor: ASUSTek COMPUTER INC.
+
+mgarciamfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 4C:32:75:9E:6B:DB
+  name: mgarcia-m.fios-router.home
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+samsungsmg955ufiosrouterhome:
+  hide_if_away: false
+  icon: 
+  mac: B0:72:BF:E9:6C:6A
+  name: SAMSUNG-SM-G955U.fios-router.home
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+philipshuefiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 00:17:88:A2:61:87
+  name: Philips-hue.fios-router.home
+  picture:
+  track: false 
+  vendor: Philips Lighting BV
+
+chromecastfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:70:B1:04
+  name: Chromecast.fios-router.home
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+amazon1998b11a2fiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 4C:EF:C0:C6:5B:FA
+  name: amazon-1998b11a2.fios-router.home
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+b0c5ca307768:
+  hide_if_away: false
+  icon:
+  mac: B0:C5:CA:30:77:68
+  name: b0c5ca307768
+  picture:
+  track: false
+  vendor: IEEE Registration Authority
+
+harmonyhubfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: C8:DB:26:04:8C:87
+  name: HarmonyHub.fios-router.home
+  picture:
+  track: false
+  vendor: Logitech
+
+esp_400064fiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 2C:3A:E8:40:00:64
+  name: ESP 400064.fios-router.home
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+biancasipadfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: CC:44:63:A8:BD:71
+  name: Biancas-iPad.fios-router.home
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+ea086bf983ed:
+  hide_if_away: false
+  icon:
+  mac: EA:08:6B:F9:83:ED
+  name: ea086bf983ed
+  picture:
+  track: false
+  vendor: unknown
+
+amazonbbfad2c12fiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 38:F7:3D:4F:6B:2C
+  name: amazon-bbfad2c12.fios-router.home
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+iphonefiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: B0:70:2D:22:34:A3
+  name: iPhone.fios-router.home
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+chromecastfiosrouterhome_2:
+  hide_if_away: false
+  icon:
+  mac: 54:60:09:D2:90:04
+  name: Chromecast.fios-router.home
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+desktopldtf6m1fiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: BC:83:85:E0:DD:FA
+  name: DESKTOP-LDTF6M1.fios-router.home
+  picture:
+  track: true
+  vendor: Microsoft Corporation
+
+appletvfiosrouterhome:
+  hide_if_away: false
+  icon:
+  mac: 14:99:E2:05:FF:31
+  name: Apple-TV.fios-router.home
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+'641269560244':
+  hide_if_away: false
+  icon:
+  mac: 64:12:69:56:02:44
+  name: '641269560244'
+  picture:
+  track: true
+  vendor: ARRIS Group, Inc.
